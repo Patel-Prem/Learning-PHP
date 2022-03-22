@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#btn1").click(function(){
+                // $("#p1").replaceWith("This is a first paragraph");
+                $("#p1").load("text-1.txt");
+            });
+
+            $("#btn2").click(function(){
+                $("#p2").load("text-1.txt");
+            });
+
+            $("#btn3").click(function(){
+                $("#p3").load("text-1.txt");
+            });
+        });
+
+
+    </script>1
+
+
+
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <div class="container-fluide border m-4 d-flex justify-content-space-evenly align-items-center">
+        <div class="btns border m-3">
+            <button id="btn1" class="btn btn-primary m-4"> btn 1 </button> 
+            <button id="btn2" class="btn btn-primary m-4"> btn 2 </button> 
+            <button id="btn3" class="btn btn-primary m-4"> btn 3 </button> 
+        </div>
+
+        <div id="content" class="border m-3">
+        <p id="p1" class="border">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas voluptatem ex iure repellat quia assumenda mollitia, sequi amet esse possimus iusto fugiat rerum facilis labore quos quam ea corrupti nemo.
+        Numquam tempora sit illum ipsum reprehenderit fugiat cumque ullam cum unde autem, odit, nostrum eius nulla asperiores perspiciatis, suscipit culpa et. Quia quae accusamus repellat animi, atque dolor nulla quibusdam.</p>
+        
+        <p id="p2" class="border">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas voluptatem ex iure repellat quia assumenda mollitia, sequi amet esse possimus iusto fugiat rerum facilis labore quos quam ea corrupti nemo.
+        Numquam tempora sit illum ipsum reprehenderit fugiat cumque ullam cum unde autem, odit, nostrum eius nulla asperiores perspiciatis, suscipit culpa et. Quia quae accusamus repellat animi, atque dolor nulla quibusdam.</p>
+        
+        <p id="p3" class="border">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas voluptatem ex iure repellat quia assumenda mollitia, sequi amet esse possimus iusto fugiat rerum facilis labore quos quam ea corrupti nemo.
+        Numquam tempora sit illum ipsum reprehenderit fugiat cumque ullam cum unde autem, odit, nostrum eius nulla asperiores perspiciatis, suscipit culpa et. Quia quae accusamus repellat animi, atque dolor nulla quibusdam.</p>
+    </div>
+    </div>
+</body>
+</html>

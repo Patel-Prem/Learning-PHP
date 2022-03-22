@@ -1,0 +1,38 @@
+[
+    {
+      "fname": "Anand",
+      "lname": "Joshi",
+      "gender": "M",
+      "email": "a@a.j"
+    },
+    {
+      "fname": "Ketul",
+      "lname": "Patel",
+      "gender": "M",
+      "email": "k@p.p"
+    },
+    {
+      "fname": "Misha",
+      "lname": "Patel",
+      "gender": "F",
+      "email": "m@r.p"
+    },
+    {
+      "fname": "Prem",
+      "lname": "Patel",
+      "gender": "M",
+      "email": "p@m.p"
+    },
+    {
+      "fname": "Rama",
+      "lname": "Prajapati",
+      "gender": "F",
+      "email": "r@a.p"
+    },
+    {
+      "fname": "Vijay",
+      "lname": "Mevada",
+      "gender": "M",
+      "email": "v@n.m"
+    }
+  ]

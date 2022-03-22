@@ -1,0 +1,74 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    display: block;
+    width: 50%;
+    background-color: #6ba0f7;
+    border: 1px solid #0161fa;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+    padding: 15px;
+}
+.container h3{
+    text-align: center;
+    color: #FFF;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    /* background: linear-gradient(to right top, red, yellow); */
+}
+
+.container h3::selection{
+    background-color: #FFF;
+    color: #0161fa;
+}
+
+input{
+    margin: 0 5px;
+    height: 25px;
+    width: 30%;
+    border-radius: 2.5px;
+    border-style: none;
+    padding: 0 0 0 10px;
+}
+
+input:focus{
+    background-color: #C0C0C0;
+}
+
+.name, .contact_number, .credential{ 
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.name input{
+    width: 33.33%;
+}
+.contact_number input, .credential input{
+    width: 50%;
+}
+
+.link{
+    text-align: center;
+}
+
+.submit-update:hover{
+    cursor: pointer;
+}
+
+.submit-update{
+    background-color: #FFF;
+    padding: 0 15px;
+    color: #000;
+    border-radius: 2.5px;
+}
